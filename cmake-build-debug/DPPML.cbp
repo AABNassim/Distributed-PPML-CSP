@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DPPML"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/st/Bureau/DPPML_CSP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/st/Bureau/DPPML_CSP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DPPML">
+				<Option output="/home/st/Bureau/DPPML_CSP/cmake-build-debug/DPPML" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/st/Bureau/DPPML_CSP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 DPPML"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DPPML/fast">
+				<Option output="/home/st/Bureau/DPPML_CSP/cmake-build-debug/DPPML" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/st/Bureau/DPPML_CSP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 DPPML/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/st/Bureau/DPPML_CSP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/st/Bureau/DPPML_CSP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/BENCHS/BENCHBuildingBlocks.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/BENCHS/BENCHBuildingBlocks.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/CRYPTO/DTPKC.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/CRYPTO/DTPKC.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/CRYPTO/EvalAdd.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/CRYPTO/EvalAdd.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/CRYPTO/EvalMult.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/CRYPTO/EvalMult.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/CRYPTO/EvalSub.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/CRYPTO/EvalSub.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/CRYPTO/SkeySwitch.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/CRYPTO/SkeySwitch.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/ML/DatasetReader.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/ML/DatasetReader.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/ML/LogisticRegression.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/ML/LogisticRegression.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/ML/Record.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/PPML/CSP.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/PPML/CSP.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/PPML/MLSP.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/PPML/MLSP.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/PPML/PPLogisticRegression.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/PPML/PPLogisticRegression.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/PPML/Worker.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/PPML/Worker.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/TestPrimitives.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/UTIL/math_util.cc">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/UTIL/math_util.hh">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/UTIL/mpz_class.hh">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/UTIL/num_th_alg.cc">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/UTIL/num_th_alg.hh">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/UTIL/prime_seq.cc">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/UTIL/prime_seq.hh">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/UTIL/util_gmp_rand.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/BootContext.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/BootContext.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/Ciphertext.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/Ciphertext.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/EvaluatorUtils.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/EvaluatorUtils.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/HEAAN.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/Key.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/Key.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/Params.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/Plaintext.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/Plaintext.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/Ring.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/Ring.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/RingMultiplier.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/RingMultiplier.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/Scheme.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/Scheme.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/SchemeAlgo.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/SchemeAlgo.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/SecretKey.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/SecretKey.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/SerializationUtils.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/SerializationUtils.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/StringUtils.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/StringUtils.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/TestScheme.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/TestScheme.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/TimeUtils.cpp">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/includes/HEAAN/src/TimeUtils.h">
+			<Option target="DPPML"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/st/Bureau/DPPML_CSP/cmake-build-debug/FindGMP.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

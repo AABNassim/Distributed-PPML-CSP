@@ -1,0 +1,25 @@
+[tversion] MPFR 4.0.2
+[tversion] Compiler: GCC 7.4.0
+[tversion] C standard: __STDC__ = 1, __STDC_VERSION__ = 201112L
+[tversion] __GNUC__ = 7, __GNUC_MINOR__ = 4
+[tversion] __GLIBC__ = 2, __GLIBC_MINOR__ = 27
+[tversion] GMP: header 6.1.2, library 6.1.2
+[tversion] __GMP_CC = "gcc"
+[tversion] __GMP_CFLAGS = "-O2 -pedantic -fomit-frame-pointer -m64 -mtune=sandybridge -march=sandybridge"
+[tversion] WinDLL: __GMP_LIBGMP_DLL = 0, MPFR_WIN_THREAD_SAFE_DLL = undef
+[tversion] TLS = yes, float128 = yes, decimal = yes (BID), GMP internals = no
+[tversion] Shared cache = no
+[tversion] intmax_t = yes, printf = yes, IEEE floats = yes
+[tversion] gmp_printf: hhd = yes, lld = yes, jd = yes, td = yes, Ld = yes
+[tversion] _mulx_u64 = no
+[tversion] MPFR tuning parameters from default
+[tversion] sizeof(long) = 8, sizeof(intmax_t) = 8
+[tversion] GMP_NUMB_BITS = 64, sizeof(mp_limb_t) = 8
+[tversion] _MPFR_PREC_FORMAT = 3, sizeof(mpfr_prec_t) = 8
+[tversion] _MPFR_EXP_FORMAT = 3, sizeof(mpfr_exp_t) = 8
+[tversion] sizeof(mpfr_t) = 32, sizeof(mpfr_ptr) = 8
+[tversion] Precision range: [1,9223372036854775551]
+[tversion] Max exponent range: [-4611686018427387903,4611686018427387903]
+[tversion] Generic ABI code: no
+[tversion] Locale: fr_FR.UTF-8
+PASS tversion (exit status: 0)
